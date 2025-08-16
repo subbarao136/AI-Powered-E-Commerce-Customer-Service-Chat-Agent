@@ -1,0 +1,25 @@
+/* Chatbot Button Styles */
+.chatbot-button {
+    position: absolute;
+    top: 15px; /* Adjust as needed for vertical alignment */
+    right: 15px; /* Adjust for horizontal alignment */
+    background-color: #28a745; /* Green color */
+    color: white;
+    border-radius: 50%;
+    width: 50px; /* Size of the button */
+    height: 50px; /* Size of the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-decoration: none; /* Remove underline from link */
+}
+
+.chatbot-button img {
+    width: 24px; /* Size of the icon */
+    height: 24px; /* Size of the icon */
+}
+
+.chatbot-button:hover {
+    background-color: #218838; /* Darker green shade on hover */
+}

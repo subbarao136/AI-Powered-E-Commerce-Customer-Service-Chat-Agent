@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-commerce Store</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0">My E-commerce Store</h1>
+            <div class="input-group w-50">
+                <input type="text" class="form-control" placeholder="Search for products...">
+                <div class="input-group-append">
+                    <button class="btn btn-light" type="button">Search</button>
+                </div>
+            </div>
+          
+            <a href="http://127.0.0.1:5000/chatbot" class="chatbot-button" title="Chat with us!">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/chat.png" alt="Chatbot Icon">
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Product Section -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product Image">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Product Title</h5>
+                        <p class="card-text text-muted">$100</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more product cards as needed -->
+        </div>
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
